@@ -8,10 +8,10 @@ body {
 
 .image {
     max-width: 20%;  
-    height: 350px;
+    height: 330px;
     display: block;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;    
+    padding-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,4 +36,14 @@ body {
 .dotted {
     width: 90%;
     border-top: 2px dashed #AA96DA;
+}
+
+.button {
+    background-color: #AA96DA;
+    color: white;
+    border-color: white;
+    text-align: center;
+    right: 44.5%;
+    bottom: 43%;
+    position: fixed;
 }
